@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,", f = stderr);
+printf("with proper grammar, but the outcome is a piece of art,", f = sys.stderr);
 return (0);
 }

@@ -10,9 +10,9 @@ int main(void)
 	double doubleType;
 	char charType;
 
-	printf("Size of int: %zu bytes\n", sizeof(inttype));
-	printf("Size of float: %zu bytes\n", sizeof(floattype));
-	printf("Size of double: %zu bytes\n", sizeof(floattype));
-	printf("Size of char: %zu bytes\n", sizeof(chartype));
+	printf("Size of int: %zu bytes\n", sizeof(intType));
+	printf("Size of float: %zu bytes\n", sizeof(floatType));
+	printf("Size of double: %zu bytes\n", sizeof(floatType));
+	printf("Size of char: %zu bytes\n", sizeof(charType));
 	return (0);
 	}

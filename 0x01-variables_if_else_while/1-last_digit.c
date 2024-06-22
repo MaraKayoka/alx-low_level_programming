@@ -17,15 +17,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 5)
-	{
-		printf("%s %d %s  %s\n", str1, n, str3, str2);
-	} else if (n < 6 && n != 0)
-	{
-		printf("%s %d %s %s\n", str1, n, str3, str4);
-	} else if (n == 0)
+	if (n == 0)
 	{
 		printf("%s %d %s and is 0\n", str1, n, str3);
+	} else if (n > 0)
+	{
+		printf("%s %d %s  %s\n", str1, n, str3, str2);
+	} else
+	{
+		printf("%s %d %s %s\n", str1, n, str3, str4);
 	}
 	return (0);
 }

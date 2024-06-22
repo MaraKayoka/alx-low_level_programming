@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
-	char str1[] = "Last digit of";
-	char str2[] = "and is greater than 5";
+	const char* str1[] = "Last digit of";
+	const char* str2[] = "and is greater than 5";
 	char str3[] = "is";
-	char str4[] = "and is less than 6 and not 0";
+	const char* str4[] = "and is less than 6 and not 0";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

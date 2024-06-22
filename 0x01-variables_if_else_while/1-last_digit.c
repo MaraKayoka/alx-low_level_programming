@@ -19,7 +19,7 @@ int main(void)
 
 	if (n > 5)
 	{
-		printf("%s %d %s "8" %s\n", str1, n, str3, str2);
+		printf("%s %d %s  %s\n", str1, n, str3, str2);
 	} else if (n < 6 && n != 0)
 	{
 		printf("%s %d %s %s\n", str1, n, str3, str4);

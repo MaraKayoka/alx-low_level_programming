@@ -13,8 +13,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	char str1[] = "Last digit of";
-	char str2[] = "and is greater than 5"
-	char str4[] = "and is less than 6 and not 0"
+	char str2[] = "and is greater than 5";
+	char str4[] = "and is less than 6 and not 0";
 
 	if (n > 5)
 	{

@@ -25,7 +25,7 @@ int main(void)
 		printf("%s %d %s %s\n", str1, n, str3, str4);
 	} else
 	{
-		printf("%s %d %s and is less than 6 and not 0\n", str1, n);
+		printf("%s %d %s and is less than 6 and not 0\n", str1, n, str3);
 	}
 	return (0);
 }

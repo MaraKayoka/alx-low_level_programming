@@ -9,13 +9,13 @@
 int main(void)
 {
 	int n;
-	char str1[] = "Last digit of";
+	char str1[] = "Last digit of is";
 	char str2[] = "and is greater than 5";
 	char str4[] = "and is less than 6 and not 0";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n > 5)
 	{
 		printf("%s %d %s\n", str1, n, str2);

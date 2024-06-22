@@ -22,10 +22,10 @@ int main(void)
 		printf("%s %d %s and is 0\n", str1, n, str3);
 	} else if (n > 0)
 	{
-		printf("%s %d %s  %s\n", str1, n, str3, str2);
+		printf("%s %d %s  %s\n", str1, n, str3, str4);
 	} else
 	{
-		printf("%s %d %s %s\n", str1, n, str3, str4);
+		printf("%s %d %s %s\n", str1, n, str3, str2);
 	}
 	return (0);
 }

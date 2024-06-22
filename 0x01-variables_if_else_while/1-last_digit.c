@@ -18,13 +18,13 @@ int main(void)
 
 	if (n > 5)
 	{
-		printf("%s %d %s %s\n", str1, n, str3, str2);
+		printf("%s %d %s %s\n", str1, n, str3, "8", str2);
 	} else if (n < 6 && n != 0)
 	{
-		printf("%s %d %s %s\n", str1, n, str3, str3);
+		printf("%s %d %s %s\n", str1, n, str3, "-8", str3);
 	} else
 	{
-		printf("%s %d %s and is less than 6 and not 0\n", str1, n, str3);
+		printf("%s %d %s "and is less than 6 and not 0"\n", str1, n, "0", str3);
 	}
 	return (0);
 }

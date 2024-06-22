@@ -13,7 +13,7 @@ int main(void)
 	char str2[] = "and is greater than 5";
 	char str3[] = "is";
 	char str4[] = "and is less than 6 and not 0";
-	lastDigit = number % 10;
+	lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

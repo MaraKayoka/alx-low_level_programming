@@ -23,7 +23,7 @@ int main(void)
 	} else if (n < 6 && n != 0)
 	{
 		printf("%s %d %s %s\n", str1, n, str3, str4);
-	} else
+	} else if (n == 0)
 	{
 		printf("%s %d %s and is 0\n", str1, n, str3);
 	}

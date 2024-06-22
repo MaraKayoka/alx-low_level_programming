@@ -13,7 +13,6 @@ int main(void)
 	char str2[] = "and is greater than 5";
 	char str3[] = "is";
 	char str4[] = "and is less than 6 and not 0";
-	char str5[] = "and is 0";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -26,7 +25,7 @@ int main(void)
 		printf("%s %d %s %s\n", str1, n, str3, str4);
 	} else
 	{
-		printf("%s %d %s %s\n", str1, n, str3, str2);
+		printf("%s %d %s and is 0\n", str1, n, str3);
 	}
 	return (0);
 }

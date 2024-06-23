@@ -11,12 +11,13 @@ int main(void)
 	char ch = 'A';
 
 	ch = tolower(ch);
+	ch = toupper(ch);
 
 	for (ch = 'A'; ch <= 'Z'; ch++)
 
 	{
 		putchar(tolower(ch));
-	} putchar(ch);
-	putchar('\n');
+		putchar(toupper(ch));	
+	} putchar('\n');
 	return (0);
 }

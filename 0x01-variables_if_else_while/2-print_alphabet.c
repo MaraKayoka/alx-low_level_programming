@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - a program that prints the alphabet in lower case
+ * main- a program that write the aplhabet in lowercase
  * Return: Always 0(Success)
  */
-/* Bettyu checking requires an extra line for the expression*/
+/* Betty checking code for more fun and trouble*/
 
 int main(void)
 {
-	char ch = 'a';
+	char ch = 'A';
 
-	for (ch = 'a'; ch <= 'Z'; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
+
 	{
-		putchar(ch);
+		putchar();
 	}
-
 	return (0);
-
 }

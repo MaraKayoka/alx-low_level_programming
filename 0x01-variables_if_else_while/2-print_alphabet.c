@@ -10,10 +10,12 @@ int main(void)
 {
 	char ch = 'A';
 
+	result = tolower(ch);
+
 	for (ch = 'A'; ch <= 'Z'; ch++)
 
 	{
-		putchar(ch);
+		putchar(tolower(ch));
 	}
 	return (0);
 }

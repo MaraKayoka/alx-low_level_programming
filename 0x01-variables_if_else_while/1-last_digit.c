@@ -24,5 +24,6 @@ int main(void)
 	} else
 	{
 		printf("Last digit of %d is %d %s\n", n, lastDigit, myString);
+	}
 	return (0);
 }

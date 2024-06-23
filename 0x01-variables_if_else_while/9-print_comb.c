@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 #include <ctype.h>
 /**
  * main - a program that we're going to print combinaison of n

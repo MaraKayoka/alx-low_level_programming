@@ -19,7 +19,7 @@ int main(void)
 	for (ch = 'A'; ch <= 'F'; ch++)
 	{
 		putchar(tolower(ch));
-	}
+	} putchar('\n');
 
 	return (0);
 }

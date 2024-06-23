@@ -8,13 +8,15 @@ int main(void)
 {
 	int j, k;
 
-	for (j = '00'; j <= '99'; j++)
+	for (j = '0'; j <= '99'; j++)
 	{
 		for (k = j + 1; k <= '99'; k++)
 		{ if (j != k)
 			{
-				putchar(j);
-				putchar(k);
+				putchar(j / 10 + '0');
+				putchar(j / %10 + '0');
+				putchar(k / 10 + '0');
+				putchar(k / %10 + '0')
 				if (j != '98' || k != '99')
 				{
 					putchar(',');

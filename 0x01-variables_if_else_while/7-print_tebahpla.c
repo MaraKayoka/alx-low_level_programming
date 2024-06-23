@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char ch;
+	char ch = 'Z';
 
 	ch = tolower(ch);
 

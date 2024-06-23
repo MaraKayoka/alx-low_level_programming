@@ -12,7 +12,7 @@ int main(void)
 	char myString[] = "and is less than 6 and not 0";
 
 	srand(time(0));
-	n = rand() RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	lastDigit = n % 10;
 
 	if (lastDigit == 0)

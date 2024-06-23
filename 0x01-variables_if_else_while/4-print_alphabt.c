@@ -11,7 +11,7 @@ int main(void)
 
 	ch = tolower(ch);
 
-	for (ch = 'A'; ch <= 'Z'; ch++;)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		if (ch != 'Q' && ch != 'E')
 		putchar(tolower(ch));

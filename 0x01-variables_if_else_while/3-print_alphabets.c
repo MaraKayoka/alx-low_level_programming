@@ -17,7 +17,10 @@ int main(void)
 
 	{
 		putchar(tolower(ch));
-	} putchar(toupper(ch));
+	} for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(toupper(ch));
+	}
 	putchar('\n');
 	return (0);
 }

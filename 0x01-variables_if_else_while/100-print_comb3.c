@@ -10,12 +10,19 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		for (k = n + 1; k <= '9'; k++)
+		for (k = '0'; k <= 10; k++)
 		{
-			putchar(k);
-		} putchar(',');
-		putchar(' ');
-	}
-
+			if (i != k)
+			{
+				putchar(n + '0');
+				putchar(k + '0');
+				if (i != 9 || k != 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	} putchar('\n')
 	return (0);
 }

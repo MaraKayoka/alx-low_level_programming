@@ -1,5 +1,6 @@
 #include <stdio,h>
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * main - a program that prints a word
  * Return: 0(Success)

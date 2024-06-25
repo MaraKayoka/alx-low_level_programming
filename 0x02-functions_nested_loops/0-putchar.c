@@ -1,26 +1,27 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include <main.h>
 
-#include <stdio.h>
 /**
- * main - a program that prints a word
+ * main - a program that prints a file
  * Return: 0(Success)
  */
 int main(void)
 {
-	FILE *filepointer;
+	char n = '_';
+	char p = 'p';
+	char q = 'u';
+	char r = 't';
+	char s = 'c';
+	char t = 'h';
+	char u = 'a';
+	char v = 'r';
 
-	char *filename = "0-putchar.c";
-
-	filepointer = fopen(filename, "w");
-
-	if (filepointer != NULL)
-	{
-		fprintf(filepointer, "_putchar.c");
-		fclose(filepointer);
-	} else
-	{
-	printf("Error printing\n");
-	}
+	putchar(n);
+	putchar(p);
+	putchar(q);
+	putchar(r);
+	putchar(s);
+	putchar(t);
+	putchar(u);
+	putchar(v);
 	return (0);
 }

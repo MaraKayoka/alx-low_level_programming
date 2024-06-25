@@ -5,8 +5,16 @@
  */
 int main(void)
 {
-	char a;
+	File *filepointer;
 
-	printf('_putchar');
+	char *filename = "0-putchar.c"
+
+	if (filepointer != NULL)
+	{
+		fprint(filepointer, "_putchar.c");
+	} else
+	{
+	printf("Error printing\n");
+	}
 	return (0);
 }

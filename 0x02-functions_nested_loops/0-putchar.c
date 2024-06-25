@@ -1,3 +1,6 @@
+#ifndef "MAIN_H"
+#define "MAIN.H"
+
 #include <stdio.h>
 /**
  * main - a program that prints a word
@@ -5,15 +8,16 @@
  */
 int main(void)
 {
-	File *filepointer;
+	FILE *filepointer;
 
 	char *filename = "0-putchar.c";
 
-	filepointer = fopen(filename, "w")
+	filepointer = fopen(filename, "w");
 
 	if (filepointer != NULL)
 	{
 		fprintf(filepointer, "_putchar.c");
+		fclose(filepointer);
 	} else
 	{
 	printf("Error printing\n");

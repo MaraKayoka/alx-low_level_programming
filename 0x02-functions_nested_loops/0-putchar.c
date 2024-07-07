@@ -1,27 +1,20 @@
 #include "main.h"
-
 /**
- * main - a program that prints a file
+ * main - a program that prints _putchar
  * Return: 0(Success)
  */
+
 int main(void)
 {
-	char n = '_';
-	char p = 'p';
-	char q = 'u';
-	char r = 't';
-	char s = 'c';
-	char t = 'h';
-	char u = 'a';
-	char v = 'r';
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	putchar(n);
-	putchar(p);
-	putchar(q);
-	putchar(r);
-	putchar(s);
-	putchar(t);
-	putchar(u);
-	putchar(v);
-	return (0);
+return (0);
 }
